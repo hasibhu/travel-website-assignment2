@@ -54,6 +54,25 @@ a{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Banner Realted styles */
 
 
@@ -62,11 +81,13 @@ a{
     background-size: cover;
     background-repeat: no-repeat;
     /* background-position: center; */
-    
+    border-radius: 8px;
 }
 .bannerContainer{
-    text-align: center;
+    padding-top: 120px;
+    padding-left: 280px;
     min-height: 50vh;
+
 
 }
 .banner h1{
@@ -84,6 +105,24 @@ a{
     width: 680px;
 }
 
+
+.whereToGo{
+    width: 124px;
+    height: 32px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    margin-right: 3px;
+}
+
+.when{
+    width: 124px;
+    height: 32px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+}
+
 .slectOption{
     display: flex;
     justify-content: center;
@@ -95,11 +134,6 @@ a{
 }
 
 
-
-form{
-
-}
-
 #findNowButton{
     border-radius: 8px;
     background: #FF5400;
@@ -110,12 +144,9 @@ form{
 }
 
 
-.hide{
+/* .hide{
     display: none;
-}
-
-
-
+} */
 
 
 
@@ -123,22 +154,19 @@ form{
 
 .populartour{
     max-width: 1170px;
-    display: flex;
-    
-    
+    display: flex;    
     
 }
 .popularTourDescription{
     width: 500px;
 }
 
-
 .hide1{
     display: none;
 }
 
 
-/* Stayles related to different places and names */
+/* Images and place names related Stayles  start here  */
 
 
 .firstRowImage, .secondRowImage, .thirdRowImage{
@@ -245,6 +273,11 @@ form{
     display: none;
 }
 
+/* Images and place names related Stayles  ends here  */
+
+
+
+
 
 /* Why Choose Us part style */
 
@@ -252,7 +285,6 @@ form{
     text-align: center;
     width: 630px ;
 }
-
 
 .whyChooseDiv2{
     margin-top: 25px;
@@ -288,29 +320,17 @@ form{
 .hide3{
     display: none;
 }
+/* Why Choose Us part ends here */
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Newsletter part starts here */
 
 .newsletter{
     display: flex;
     gap: 15px;
 }
-
 
 .newsletterDiv1{
     width: 476px;
@@ -331,7 +351,6 @@ form{
     line-height: 26px;
 }
 
-
 .line {
     width: 395px;
     height: 1px; 
@@ -340,7 +359,6 @@ form{
 
     margin-bottom: 10px;
   }
-
 
 .nameInput{
     width: 393px;
@@ -418,32 +436,10 @@ form{
     
 }
 
-
 .hideNewsletter{
     display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* newsletter part ends here */
 
 
 
