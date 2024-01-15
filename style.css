@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
+
+ /* *{
+    max-width: 1170px;
+    margin: 0 auto;
+    font-family: 'Mulish', sans-serif;
+
+} */
+
+
+body{
+    max-width: 1170px;
+    margin: 0 auto;
+    font-family: 'Mulish', sans-serif;
+}
+
+.nav{
+    /* max-width: 1170px;
+    margin: 0 auto; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+}
+.logoText{
+    font-family: Mulish;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+}
+.menu ul li{
+    display: inline;
+    gap: 5px;
+    
+}
+
+a{
+    text-decoration: none;
+    padding: 0 20px;
+    color:#424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+
+/* Banner Realted styles */
+
+
+.banner{
+    background-image: url("./images/bannerBackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    
+}
+.bannerContainer{
+    text-align: center;
+    min-height: 50vh;
+
+}
+.banner h1{
+    /* color: #FFF; */
+    color: red;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 598px;
+}
+
+.banner p{
+    width: 680px;
+}
+
+.slectOption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 600px;
+    height: 80px;
+}
+
+
+
+form{
+
+}
+
+#findNowButton{
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 42px;
+    flex-shrink: 0;
+    border: none;
+}
+
+
+.hide{
+    display: none;
+}
+
+
+
+
+
+
+/* popular tour plans styles*/
+
+.populartour{
+    max-width: 1170px;
+    display: flex;
+    
+    
+    
+}
+.popularTourDescription{
+    width: 500px;
+}
+
+
+.hide1{
+    display: none;
+}
+
+
+/* Stayles related to different places and names */
+
+
+.firstRowImage, .secondRowImage, .thirdRowImage{
+    display: flex;
+    gap: 8px;
+}
+
+.maldives h1{
+    position: relative;
+    top: 200px;
+    left: 190px;
+    color: #FFF;
+    /* text-align: center; */
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.indonesia h1{
+    position: relative;
+    top: 190px;
+    left: 250px;
+    color: #FFF;
+    /* text-align: center; */
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sriLanka h1{
+    position: relative;
+    top: 170px;
+    left: 135px;
+    color: #FFF;
+    /* text-align: center; */
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: -25px;
+}
+
+.northAmerica h1{
+    position: relative;
+    top: 170px;
+    left: 135px;
+    color: #FFF;
+    /* text-align: center; */
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: -25px;
+}
+
+.kashmir h1{
+    position: relative;
+    top: 170px;
+    left: 109px;
+    color: #FFF;
+    /* text-align: center; */
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: -25px;
+}
+
+.bangladesh p{
+    position: relative;
+    top: 190px;
+    left: 150px;
+    color: #FFF;
+    /* text-align: center; */
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 0;
+    margin-top: 8px;
+}
+
+.bandarban p {
+    position: relative;
+    top: 200px;
+    left: 260px;
+    color: #FFF;
+    /* text-align: center; */
+    font-family: Mulish;
+    font-size: 40px;
+    
+    font-weight: 800;
+    line-height: 0;
+    margin-top: 8px;
+}
+
+.hide2{
+    display: none;
+}
+
+
+/* Why Choose Us part style */
+
+.whyChooseDiv1{
+    text-align: center;
+    width: 630px ;
+}
+
+
+.whyChooseDiv2{
+    margin-top: 25px;
+    display: flex;
+    gap: 10px;
+}
+
+.hotel{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.map{
+    
+    height: 284px;  
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+
+.whyChooseDiv3{
+    margin-top: 25px;
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.hide3{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer styles */
+
+footer{
+    text-align: center;
+    
+}
+
+footer h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 32px;
+    font-weight: 800;
+
+}
+
+.footer p{
+    
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+/* .footer > .footerLogo img {
+    gap: 20px;
+} */
+
+#footerLogo{
+    padding: 30px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerHide{
+    display: none;
+}
+
+
