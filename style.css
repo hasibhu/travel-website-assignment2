@@ -379,6 +379,24 @@ line-height: normal;
     padding-left: 199px;
 }
 
+.whyChooseDiv1 h2{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.whyChooseDiv1 p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
 .whyChooseDiv2{
     margin-top: 25px;
     display: flex;
@@ -400,7 +418,15 @@ line-height: normal;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
 }
+.offer{
+    color: #5A5A5D;
 
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
 
 .whyChooseDiv3{
     margin: 25px auto;
