@@ -75,20 +75,24 @@ a{
 
 /* Banner Realted styles */
 
-
 .banner{
+    /* border: 6px solid red; */
+    border-radius: 6px;
     background-image: url("./images/bannerBackground.png");
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-position: center; */
-    border-radius: 8px;
+    background-position: center;
+    background-attachment: fixed;
+    margin-bottom: 25px;
 }
 .bannerContainer{
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
     padding-top: 120px;
     padding-left: 280px;
     min-height: 50vh;
-
-
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
 }
 .banner h1{
     /* color: #FFF; */
@@ -103,8 +107,15 @@ a{
 
 .banner p{
     width: 680px;
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
 }
-
 
 .whereToGo{
     width: 124px;
@@ -121,6 +132,9 @@ a{
     border-radius: 8px;
     background: #FFF;
     border: none;
+    color: rgba(19, 19, 24, 0.50);
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .slectOption{
@@ -130,9 +144,8 @@ a{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     width: 600px;
-    height: 80px;
+    height: 70px;
 }
-
 
 #findNowButton{
     border-radius: 8px;
@@ -144,34 +157,72 @@ a{
 }
 
 
-/* .hide{
-    display: none;
-} */
-
-
 
 /* popular tour plans styles*/
 
-.populartour{
+.popularTour{
     max-width: 1170px;
-    display: flex;    
-    
+    display: flex; 
+    justify-content: space-between;   
+    margin-top: 50px;
 }
 .popularTourDescription{
     width: 500px;
+    
 }
 
-.hide1{
-    display: none;
+.paragraphFont{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
 }
+
+
+.buttonPopular{
+    width: 100px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FF5400;
+    border: none;
+}
+
 
 
 /* Images and place names related Stayles  start here  */
 
+.containerPopularDestination{
+    margin-top: 90px;
+    
+}
+
+
+
+
+.popularDestinationDescription{
+    text-align: center;
+    margin-bottom: -50px;
+    
+}
+
+.popularDestinationDescription p{
+    
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    
+}
 
 .firstRowImage, .secondRowImage, .thirdRowImage{
     display: flex;
-    gap: 8px;
+    gap: 15px;
 }
 
 .maldives h1{
@@ -263,44 +314,59 @@ a{
     /* text-align: center; */
     font-family: Mulish;
     font-size: 40px;
-    
     font-weight: 800;
     line-height: 0;
     margin-top: 8px;
 }
+.sriLanka{
+    margin-top: -20px;}
 
-.hide2{
-    display: none;
+.northAmerica{
+    margin-top: -20px;}
+.kashmir{
+    margin-top: -20px;
 }
 
+.bangladesh{
+    margin-top: -25px;
+}
+.bandarban{
+    margin-top: -37px;
+}
 /* Images and place names related Stayles  ends here  */
-
-
 
 
 
 /* Why Choose Us part style */
 
+
+.whyChooseUs{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
 .whyChooseDiv1{
     text-align: center;
     width: 630px ;
+    padding-left: 199px;
 }
 
 .whyChooseDiv2{
     margin-top: 25px;
     display: flex;
-    gap: 10px;
+    gap: 16px;
 }
 
 .hotel{
     border-radius: 16px;
+    height: 200px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
+    padding: 20px;
 }
 
 .map{
-    
-    height: 284px;  
+    padding: 20px;
+    height: 200px;  
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
@@ -308,20 +374,88 @@ a{
 
 
 .whyChooseDiv3{
+    margin-left: 280px;
     margin-top: 25px;
-    width: 573px;
-    height: 284px;
-    flex-shrink: 0;
+    padding: 20px;
+    width: 577px;
+    height: 200px;
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
-
-.hide3{
-    display: none;
-}
 /* Why Choose Us part ends here */
 
+
+
+
+/* review part styles starts here*/
+.reviewContainer{
+    background-color: rgb(241, 238, 234);
+    margin-bottom: 45px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.cleintReview{
+    text-align: center;
+    padding-left: 290px;
+    padding-right: 190px;
+}
+
+.clientsCommentCard{
+    display: flex ;
+    justify-content: center;
+    gap: 6px;
+}
+
+.clientsCommentCard img{
+    width: 100px;
+    height: 100px;
+}
+
+.card{
+    width: 320px;
+    height: 240px;
+    border: 2px solid yellowgreen;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.card2{
+    background-color: rgb(212, 212, 130);
+}
+
+.card1, .card3{
+    background-color: steelblue;
+}
+
+
+.reviewsButtonDiv{
+   text-align: center;
+   margin-top: 50px;
+}
+
+.reviewsButton{
+    background-color: orange;
+    border-radius: 8px;
+    border: none;
+    height: 30px;
+    font-size: 27px;
+}
+
+.reviewsButton:hover{
+    background-color: yellowgreen;
+}
+
+.common{
+    border-radius: 5px;
+    border: none;
+}
+.common:hover{
+    background-color: darkorange;
+}
+
+
+/* review part styles ends here*/
 
 
 
@@ -487,3 +621,16 @@ footer h3{
 }
 
 
+
+
+@media screen and (max-width:576px) {
+    .clientsCommentCard{
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 3px;
+    }
+
+    .cleintReview{
+        padding: 5px;
+    }
+}

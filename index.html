@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dream Travel</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
     <header>
@@ -30,59 +31,60 @@
     </header>
     
     <main>
-        <section class="banner hide">
+        <section class="banner">
             <div class="bannerContainer">
                 <h1>Explore Your Travel</h1>
                 <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
-
+    
                 <div class="slectOption">
                     <input type="text" name="" id="" placeholder="Where to go" class="whereToGo">
-
+    
+    
+                    
                     <form action="#">
                         <select name="time"  class="when">
                           <option value="whenTimeField" >When</option>
-
+    
                           <option value="24">January</option>
                           <option value="24">February</option>
                           <option value="24">June</option>
                           <option value="24">July</option>
                         </select> 
                     </form>
-
                     <form action="#">
-                        <select name="languages" id="lang">
-                          
-                            <option  value="javascript">Select Type</option>
-
-                            <option id="selectType" value="24">24</option>
-
+                        <select name="time"  class="when">
+                          <option value="whenTimeField" >Select Type</option>
+    
+                          <option value="24">January</option>
+                          <option value="24">February</option>
+                          <option value="24">June</option>
+                          <option value="24">July</option>
                         </select> 
                     </form>
-
+    
+                    
                   <input id="findNowButton" type="submit" value="Find Now" />
-
+    
                 </div>
             </div>
-
             
             
         </section>
 
-
-        <section class="populartour hide1">
+        <section class="popularTour ">
             <div class="popularTourDescription">
-                <h2>Our Popular Tours</h2>
-                <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+                <h2 >Our Popular Tours</h2>
+                <p class="paragraphFont">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
                 <ul>
-                    <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
-                    <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
-                    <li> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
+                    <li class="paragraphFont">Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li> <br>
+                    <li class="paragraphFont">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li> <br>
+                    <li class="paragraphFont"> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
                 </ul>
-                <p>Amet consectetur. Vulputate commodo felis molestie risus 
+                <p class="paragraphFont">Amet consectetur. Vulputate commodo felis molestie risus 
                     ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt. 
                 </p>
                 
-                <button>Read More</button>
+                <button class="buttonPopular">Read More</button>
             </div>
 
             <div class="bgImage">
@@ -90,7 +92,14 @@
             </div>
         </section>
 
-        <section class="container hide2">
+        <section class="containerPopularDestination ">
+            
+            <div class="popularDestinationDescription">
+                <h2>Choose Your Destination</h2>
+                <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit <br>massa. Sodales dictumst nec nibh pellentesque.</p>
+            </div>
+            
+            
             <div class="firstRowImage">
                 <div class="maldives">
                     <h1>Maldives</h1>
@@ -131,7 +140,7 @@
         </section>
 
 
-        <section class="whyChooseUs hide3">
+        <section class="whyChooseUs ">
 
             <div class="whyChooseDiv1">
                 <h2>Why Choose Us</h2>
@@ -164,7 +173,41 @@
         </section>
 
 
-        <section class="newsletter hideNewsletter">
+        <section class="reviewContainer">
+            <div class="cleintReview">
+                <h2>Reviews from Clients</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla voluptatum maiores atque sit illum, sapiente debitis deserunt adipisci vero doloremque sed ea perspiciatis, iure quae officia rem! Distinctio, nisi aperiam.</p>
+            </div>
+    
+            <div class="clientsCommentCard">
+                <div class="card card1">
+                    <img src="./images/comment1.svg" alt="">
+                    <h5>Name: Heinz</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione saepe animi voluptatibus.</p>
+                    <button class="common">Read More</button>
+                </div>
+                <div class="card card2">
+                    <img src="./images/comment2.svg" alt="">
+                    <h5>Name: Christina</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione saepe animi voluptatibus.</p>
+                    <button class="common">Read More</button>
+                </div>
+                <divc class="card card3">
+                    <img src="./images/coment3.svg" alt="">
+                    <h5>Name: Carsten</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione saepe animi voluptatibus.</p>
+                    <button class="common">Read More</button>
+                </div>
+                
+    
+                <div class="reviewsButtonDiv">
+                    <button class="reviewsButton">More Reviews</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="newsletter ">
             <div class="newsletterDiv1">
                 <h1>Newsletter</h1>
             
@@ -193,7 +236,7 @@
             </div>
         </section>
 
-        <footer class="footerHide">
+        <footer class="">
             <div class="footer">
                 <div>
                     <h3><img src="./images/logoImg.png" alt=""> Dream Travel</h3>
