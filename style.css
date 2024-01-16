@@ -81,22 +81,6 @@ line-height: normal;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Banner Realted styles */
 
 .banner{
@@ -234,9 +218,6 @@ line-height: normal;
     
 }
 
-
-
-
 .popularDestinationDescription{
     text-align: center;
     margin-bottom: -50px;
@@ -359,13 +340,14 @@ line-height: normal;
     margin-top: -20px;}
 
 .northAmerica{
-    margin-top: -20px;}
+    margin-top: -40px;}
+
 .kashmir{
-    margin-top: -20px;
+    margin-top: -40px;
 }
 
 .bangladesh{
-    margin-top: -25px;
+    margin-top: -30px;
 }
 .bandarban{
     margin-top: -37px;
