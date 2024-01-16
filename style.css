@@ -706,13 +706,13 @@ footer h3{
         padding-top: 30px;
     }
     .bannerDescription1 h1{
-        padding-top: 20px;
+        padding-top: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
         color: #FFF;
         font-family: Mulish;
-        font-size: 22px;
+        font-size: 26px;
         font-style: normal;
         font-weight: 800;
         line-height: normal;
