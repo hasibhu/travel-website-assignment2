@@ -488,7 +488,8 @@ line-height: 26px;
 }
 
 .reviewsButton{
-    background-color: orange;
+    background-color: #FF5400;
+    width: 200px;
     border-radius: 8px;
     border: none;
     height: 30px;
@@ -506,8 +507,6 @@ line-height: 26px;
 .common:hover{
     background-color: darkorange;
 }
-
-
 /* review part styles ends here*/
 
 
@@ -688,6 +687,12 @@ footer h3{
 
 
 
+
+
+
+
+
+/* Media Query Starts Here */
 @media screen and (max-width:576px) {
 
     .headerHide{
