@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dream Travel</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <!-- <link rel="stylesheet" href="responsive.css"> -->
 </head>
 <body>
-    <header>
+    <header >
         <nav class="nav">
             <div class="logo">
                 <img src="./images/logoImg.png" alt="">
@@ -31,7 +31,7 @@
     </header>
     
     <main>
-        <section class="banner">
+        <section id="maxWidth" class="banner bannerHide">
             <div class="bannerContainer">
                 <h1>Explore Your Travel</h1>
                 <p>Embark on unforgettable journeys with our travel expertise. Discover new horizons, create lasting memories. Your adventure starts here!</p>
@@ -61,8 +61,6 @@
                           <option value="24">July</option>
                         </select> 
                     </form>
-    
-                    
                   <!-- <input id="findNowButton" type="submit" value="Find Now" /> -->
                   <button id="findNowButton"><img src="./images/findIcon.svg" alt=""> Find Now</button>
     
@@ -72,10 +70,49 @@
             
         </section>
 
+        <section class="banner1 hide">
+            <div class="bannerContainer1">
+                <div class="bannerDescription1">
+                    <h1>Explore Your Travel</h1>
+                    <p class="bannerParagraph1">Dolor sit amet consectetur. Nullam <br>suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+                </div>
+    
+                <div class="slectOption1">
+                    <input type="text" name="" id="" placeholder="Where to go" class="whereToGo1">
+                    
+                    <form action="#">
+                        <select name="time"  class="when1">
+                          <option value="whenTimeField" >When</option>
+    
+                          <option value="24">January</option>
+                          <option value="24">February</option>
+                          <option value="24">June</option>
+                          <option value="24">July</option>
+                        </select> 
+                        
+                    </form>
+                    <form action="#">
+                        <select name="time"  class="when1">
+                          <option value="whenTimeField" >Select Type</option>
+    
+                          <option value="24">January</option>
+                          <option value="24">February</option>
+                          <option value="24">June</option>
+                          <option value="24">July</option>
+                        </select> 
+                    </form>
+    
+                    
+                  <input id="findNowButton" type="submit" value="Find Now" />
+    
+                </div>
+            </div>
+        </section>
+
         <section class="popularTour">
             <div class="popularTourDescription">
                 <h2 >Our Popular Tours</h2>
-                <p class="paragraphFont">Embark on extraordinary journeys with our Popular Tours – expertly curated for thrill-seekers and culture enthusiasts. Unleash the adventurer in you and discover the world's wonders!</p>
+                <p class="paragraphFont">Embark on extraordinary journeys with our Popular Tours - expertly curated for thrill-seekers and culture enthusiasts. Unleash the adventurer in you and discover the world's wonders!</p>
                 <ul>
                     <li class="paragraphFont">Dive into exotic destinations, from vibrant cities to serene landscapes, discovering enchanting cultures and creating lifelong memories.</li> <br>
                     <li class="paragraphFont">Immerse yourself in rich cultures with expert-guided experiences..</li> <br>
@@ -95,8 +132,8 @@
         <section class="containerPopularDestination ">
             
             <div class="popularDestinationDescription">
-                <h2>Choose Your Destination</h2>
-                <p>Select your perfect destination: a realm of endless possibilities. From captivating cities to serene landscapes, <br>embark on a journey that echoes your desires. Your dream getaway awaits</p>
+                <h2>Choose Your Destination <br> <small id="popularDestinationDescriptionP">Select your perfect destination: a realm of endless possibilities. From captivating cities to serene landscapes, <br id="break">embark on a journey that echoes your desires. Your dream getaway awaits</small></h2>
+                <p id=""></p>
             </div>
             
             
@@ -144,7 +181,7 @@
 
             <div class="whyChooseDiv1">
                 <h2>Why Choose Us</h2>
-                <p>Choose us for seamless travel experiences. Expert guidance, unmatched convenience, and unforgettable adventures await you.</p>
+                <p >Choose us for seamless travel experiences. Expert guidance, unmatched convenience, and unforgettable adventures await you.</p>
             </div>
 
 
@@ -245,7 +282,7 @@
     <div class="footer">
         <div>
             <h3><img src="./images/logoImg.png" alt=""> Dream <span id="footerTravel">Travel</span></h3>
-        <p>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo <br> erat maecenas vitae elementum ultricies nullam. </p>
+            <p><small>Discover the world with us. Unmatched experiences, expert guidance, and seamless travel. Your journey, our commitment. <br> Explore, dream, and travel with confidence.</small></p>
         </div>
         <div id="footerLogo">
             <img src="./images/twitter.svg" alt="" width="24" height="24" > <br>
