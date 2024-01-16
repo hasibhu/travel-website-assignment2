@@ -52,6 +52,12 @@ a{
     line-height: normal;
 
 }
+.logoText:hover{
+    background-color: yellowgreen;
+}
+a:hover{
+    background-color: yellowgreen;
+}
 
 #travel{
     color: #FF5400;
