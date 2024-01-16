@@ -588,6 +588,9 @@ line-height: 26px;
     border: none;
 }
 
+
+
+
 .subscribeButton:hover{
     background-color: rgb(150, 178, 93);
 }
@@ -954,6 +957,9 @@ footer h3{
     }
     .newsletterImageDiv img{
         width: 550px;
+    }
+    #newsletterImage{
+        width: 555px;
     }
     #discountSticker{
         width: 324px;
