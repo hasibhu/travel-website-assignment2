@@ -692,11 +692,15 @@ footer h3{
 
 @media screen and (max-width:576px) {
 
+    .headerHide{
+        display: none;
+    }
     .banner1{
         background-image: url(./images/bannerBackground.png);
         background-size: auto;
         background-position: center;
-       height: 50vh;
+        height: 40vh;
+        
     }
     .bannerContainer1{
         /* display: flex; */
@@ -704,6 +708,7 @@ footer h3{
         align-items: center; */
        
         background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+        padding-top: 30px;
     }
     .bannerDescription1 h1{
         padding-top: 20px;
@@ -726,8 +731,8 @@ footer h3{
         font-style: normal;
         font-weight: 400;
         line-height: 21px;
-        width: 350px;
-        padding: 0 auto;
+        /* width: 350px; */
+        /* padding: 0 auto; */ 
     }
     
     .slectOption1{
@@ -951,7 +956,7 @@ footer h3{
 
 
 @media screen and (min-width: 577px)  {
-    .hide{
+     .header, .hide{
         display: none;
     }
 }
