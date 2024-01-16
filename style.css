@@ -487,8 +487,9 @@ line-height: 26px;
     width: 200px;
     border-radius: 8px;
     border: none;
-    height: 30px;
+    height: 35px;
     font-size: 27px;
+    color: #FFF;
 }
 
 .reviewsButton:hover{
