@@ -374,10 +374,9 @@ a{
 
 
 .whyChooseDiv3{
-    margin-left: 280px;
-    margin-top: 25px;
+    margin: 25px auto;
     padding: 20px;
-    width: 577px;
+    width: 520px;
     height: 200px;
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
@@ -627,7 +626,7 @@ footer h3{
     .clientsCommentCard{
         flex-direction: column;
         justify-content: center;
-        margin-left: 3px;
+        margin-left: 89px;
     }
 
     .cleintReview{
